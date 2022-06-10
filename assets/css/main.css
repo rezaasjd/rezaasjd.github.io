@@ -54,6 +54,10 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	background: #fff;
+	background-color:rgb(218, 238, 237);
+	text-decoration-color: #000000;
+	font-size: 40px ;
 }
 
 mark {
@@ -84,7 +88,6 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2681,9 +2684,13 @@ input, select, textarea {
 			}
 
 /* Main */
+	body {
+	
+	}
 
 	#main {
-		margin-left: 35%;
+		
+		margin-left: 0%;
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
